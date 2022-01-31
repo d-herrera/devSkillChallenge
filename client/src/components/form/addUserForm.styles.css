@@ -1,0 +1,46 @@
+.addUserForm {
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 450px;
+}
+
+.addUserForm input[type="text"] {
+  width: 100%;
+  margin-bottom: 12px;
+  height: 30px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.btn {
+  margin-top: 16px;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  min-width: 76px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition: all ease-in 0.5s;
+}
+
+.btn.add {
+  background-color: #4caf50;
+}
+
+.btn.reset {
+  background-color: #878787;
+}
+
+.btn:disabled {
+  background-color: grey;
+  opacity: 0.5;
+}
