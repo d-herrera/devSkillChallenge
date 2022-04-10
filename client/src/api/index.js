@@ -33,7 +33,6 @@ export const saveNewUser = (newUser, userToken) => {
   })
     .then((rawData) => rawData.json())
     .then((data) => {
-      console.log("DATA: ", data);
       if (data.code) {
         response.hasError = true;
         response.errorMsg = data.message;
